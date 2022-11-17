@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(191, 227, 248);
+        }
+        #firstName, #lastName, #email{
+            border: none; 
+            border-radius: 90px;
+        }
+        .block {
+            color: white;
+            display: block;
+            width: 100%;
+            border: none; 
+            padding: 8px 18px;
+            border-radius: 90px;
+            background-image: linear-gradient(to right, rgb(187, 78, 250) , rgb(98, 188, 248));
+        }
+
+        #textarea{
+            border: none; 
+            border-radius: 20px;
+        }
+        .myc{
+            margin-top: 100px;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+<!--**********************-->
+<!--    navbar starts     -->
+<!--**********************-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(191, 227, 248)">
+    <div class="container">
+      <img src="logo.png" alt="zerocode" width="120px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="flex-row-reverse collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Products</a>
+          <a class="nav-link" href="#about-us">Techonology</a>
+          <a class="nav-link" href="#why-jukti">Solutions</a>
+          <a class="nav-link" href="#events">Portfolio</a>
+          <a class="nav-link" href="#events">Feedback</a>
+          <a class="nav-link" href="#" style="background-image: linear-gradient(to right, rgb(187, 78, 250) , rgb(98, 188, 248)); color: white; border-radius: 50px;">GET STARTED</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--**********************-->
+<!--    navbar ends       -->
+<!--**********************--> 
+
+<div class="container myc">
+
+    <div class="text-center mb-4 mt-4">
+        <h3>HAVE SOME QUESTIONS?</h3>
+        <p>MOLDOVA <a href="#">UK</a> : Strada 31 August 1989 78, Chisinau, MD-2012</p>
+    </div>
+    
+    <div class="row align-items-center" style="margin-top: 40px;">
+        <div class="col-md-6 col-lg-6 col-12">
+            <img src="email2.png" alt="email" class="img-fluid" style="width: 60%; margin: 20px;   display: block;
+            margin-left: auto;
+            margin-right: auto;">
+        </div>
+        <div class="col-md-6 col-lg-6 col-12">
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="What's your email?">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="textarea" rows="3" placeholder="Your Questions..."></textarea>
+                </div>
+                <button type="button" class="block">SEND MESSAGE</button>
+              </form>
+              
+        </div>
+    
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
